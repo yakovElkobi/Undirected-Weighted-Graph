@@ -124,7 +124,7 @@ public class WGraph_Algo implements weighted_graph_algorithms {
     	List<node_info> path = new LinkedList<node_info>();
     	path.add(0, g.getNode(dest));
     	int x = dest;
-    	System.out.println(ans.values().toString());
+    	//System.out.println(ans.values().toString());
     	while(x != src) {
     	//	ans.get(x).toString();
     		node_info p = ans.get(x);
